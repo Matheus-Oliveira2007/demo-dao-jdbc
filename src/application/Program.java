@@ -32,7 +32,7 @@ public class Program {
 			System.out.println(obj);
 		}
 
-		/*System.out.println("==== Test 03====");
+		System.out.println("==== Test 03====");
 		Seller newSeller = new Seller(null,"João","greg@gmail.com",new Date(),4000.0,dep);
 		sellerDao.insert(newSeller);
 		System.out.println("Inserted! New id = " + newSeller.getId());
@@ -41,10 +41,10 @@ public class Program {
 		Seller	seller = sellerDao.findById(1);;
 		seller.setName("Matheus");
 		sellerDao.update(seller);
-		System.out.println("Update id = " + seller.getId());*/
+		System.out.println("Update id = " + seller.getId());
 		
 		System.out.println("==== Test 05====");
-		System.out.println("Informe o id: ");
+		System.out.print("Informe o id: ");
 		int id = sc.nextInt();
 		sellerDao.deleteById(id);
 	}
