@@ -145,7 +145,7 @@ public class DepartmentDaoJDBC implements DepartmentDao {
 				Department dep = map.get(rs.getInt("id"));
 				if(dep==null) {
 					dep = instantiateDepartment(rs);
-					map.put(rs.getInt("id"),rs.getString("Name")); //  pesquisar erro
+					map.put(rs.getInt("id"),dep); //  pesquisar erro
 				}
 				
 				Department obj = instantiateDepartment(rs);
