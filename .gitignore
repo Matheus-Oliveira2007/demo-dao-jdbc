@@ -1,17 +1,16 @@
-# Compiled class file
+# ========================
+# Arquivos compilados
+# ========================
 *.class
 
-# Log file
+# ========================
+# Logs
+# ========================
 *.log
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-.settings
-
-# Package Files #
+# ========================
+# Arquivos de pacote
+# ========================
 *.jar
 *.war
 *.nar
@@ -19,8 +18,38 @@
 *.zip
 *.tar.gz
 *.rar
-*.properties
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# ========================
+# Configurações sensíveis
+# ========================
+.env
+.env.*
+db.properties
+
+# ========================
+# IDEs / Ferramentas
+# ========================
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# BlueJ
+*.ctxt
+
+# J2ME
+.mtj.tmp/
+
+# ========================
+# Crash logs da JVM
+# ========================
 hs_err_pid*
 replay_pid*
